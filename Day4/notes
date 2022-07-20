@@ -1,0 +1,94 @@
+1) Prediction of price of a medicinal drug based on its production cost
+
+
+additional info : Company has manufactured the same drug previously and we have data available for
+        previous production cost & associated selling price
+
+
+
+In Machine learning
+
+            from available
+                        ----->2 types of attributes(columns)
+
+                        i)  Columns to be used for modelling
+                        ii) THE ATTRIBUTE THAT IS TO BE PREDICTED/DECIDED
+
+
+Index             
+
+
+
+
+Hint : Univariate Linear Regression
+feature : production cost
+label  : selling price
+
+
+
+
+
+
+
+
+2)  Prediction of price of a medicine based on production, marketing, legal & testing costs
+
+Hint :  Multivariate linear regression
+
+    feature----->production, marketing, legal & testing costs
+    Target -----> price of medicine
+
+3)  Deciding whether a drug is ready for use based on trials performed on patients with parameters
+
+            Gender,
+            Age
+            Presence of Other Ailments
+            Placebo test
+
+
+
+Steps to start creating a ML model
+
+
+1) Identify the type of problem (regression, classification, clustering)
+
+            Regression : Predicting a value(Target) based on one or more correlated factors     (features)
+
+e.g :   Closing prize of Pfizer will be correlated with Opening?
+
+            classification : separate data points into categories (classes) based on features
+
+            e.g : 1000 cancer patient.
+
+                  age, stage, other ailments,        SURVIVED
+                                                        YES
+                                                         NO
+
+
+           clustering :  Create clusters of data points based on one or more factors but HISTORICALLY LABELLED DATA IS NOT PRESENT
+
+2) Prepare your data for modelling
+
+        -----> 1) names of features of labels(renaming)
+        -----> 2) Drop irrelevant columns (columns which are not to be used as features)
+        -----> 3) Handle missing values (using one of the known techniques)
+        -----> 4) encode features & labels(target) if required
+
+                    GENDER : "MALE", "FEMALE"
+
+                                0       1
+
+Data analytics
+pandas
+
+
+visualization
+plotly_express
+seaborn
+
+creating arrays
+numpy
+
+
+machine learning
+sklearn
