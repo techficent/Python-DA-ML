@@ -1,0 +1,22 @@
+
+
+
+
+The decision boundary is always 1 dimension less than the number of features!
+
+
+SVM classification-------->PCA to reduce dimensions
+
+
+100 features--------------->99 dimensions
+
+
+
+4 features -----------> 3 dimensions A cube
+
+3 features -----------> 2 D plane
+
+2 featues-----> 1D line
+
+
+1 feature--------> A point (0 dimensions)
